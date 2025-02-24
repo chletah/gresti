@@ -1,0 +1,59 @@
+.infoBlock{
+    font-family: "Montserrat", sans-serif;
+}
+
+.infoBlock__container{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding: 140px 112px 140px 112px;
+}
+
+.infoBlock__title{
+    font-weight: 900;
+    font-size: 52px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #333;
+}
+
+.subTitle__green{
+    font-weight: 900;
+    color: #58d674;
+}
+
+.infoBlock__subTitle{
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #bdbdbd;
+}
+
+.infoBlock__btns{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.infoBlock__btn{
+    border-radius: 36px;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    padding: 16px 47px;
+    cursor: pointer;
+}
+
+.infoBlock__btnContact{
+    box-shadow: 0 10px 20px 0 rgba(88, 214, 116, 0.5);
+    background: #5ae579;
+    color: #fff;
+}
+
+.infoBlock__btnAboutMe{
+    box-shadow: 20px 20px 80px 0 rgba(0, 0, 0, 0.1);
+    background: #fff;
+    color: #828282;
+}
